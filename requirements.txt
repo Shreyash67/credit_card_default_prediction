@@ -4,5 +4,5 @@ numpy
 ipykernel
 seaborn
 matplotlib
-
+Flask_pymongo
 -e .
