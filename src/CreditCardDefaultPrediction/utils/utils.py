@@ -34,7 +34,7 @@ def evaluate_model(x_train,y_train,x_test,y_test,models):
             y_test_pred =model.predict(x_test)
 
             # Get accuracy scores for train and test data
-            #train_model_score = accuracy_score(ytrain,y_train_pred)
+            #train_model_score = accuracy_score(y_train,y_train_pred)
             test_model_score = accuracy_score(y_test,y_test_pred)
 
             report[list(models.keys())[i]] =  test_model_score
