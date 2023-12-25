@@ -1,4 +1,4 @@
-# Credit-Card-Default-Prediction
+# Credit Card Default Prediction
 
 ## Overview
 Credit Card defaulter prediction is a classification model for a common dataset. Prediction of the next month's credit card defaulter based on customer demographic and last six months' behavioral data.
