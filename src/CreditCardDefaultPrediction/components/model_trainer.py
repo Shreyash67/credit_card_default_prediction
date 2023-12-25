@@ -11,7 +11,6 @@ from src.CreditCardDefaultPrediction.utils.utils import evaluate_model
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
@@ -38,7 +37,6 @@ class ModelTrainer:
             models={
             "LogisticRegression":LogisticRegression(),
             "RandomForestClassifier" : RandomForestClassifier(),
-            "SupportVectorMachine" : SVC(),
             "KNeighborsClassifier" : KNeighborsClassifier()
         }
             
