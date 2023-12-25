@@ -1,12 +1,27 @@
 from src.CreditCardDefaultPrediction.pipelines.prediction_pipeline import CustomData,PredictPipeline
 from flask import Flask,request,render_template,jsonify
 import numpy as np
-from bson.objectid import ObjectId
 from pymongo.mongo_client import MongoClient
 import pickle
 
 app = Flask(__name__)
 model = pickle.load(open('D:\\credit_card_default_prediction\\artifacts\\model.pkl', 'rb'))
+
+uri = "mongodb+srv://Shreyash:Shreyash123@cluster0.orieyjc.mongodb.net/?retryWrites=true&w=majority"
+
+# Create a new client and connect to the server
+client = MongoClient(uri)
+
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
+
+db = client["mydatabase"]   
+
+collection=db["New_database"]
 
 
 @app.route('/')
@@ -58,6 +73,7 @@ def predict():
                  'PAY_AMT5':features[21],
                  'PAY_AMT6':features[22],
                  'Prediction':default_payment[0]}
+        collection.insert_one(New_database)
    
         print("prediction value: ", prediction)
 
