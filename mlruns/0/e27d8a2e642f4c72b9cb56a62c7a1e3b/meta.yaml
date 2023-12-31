@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/credit_card_default_prediction/mlruns/0/e27d8a2e642f4c72b9cb56a62c7a1e3b/artifacts
+end_time: 1704049834327
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e27d8a2e642f4c72b9cb56a62c7a1e3b
+run_name: dashing-hound-817
+run_uuid: e27d8a2e642f4c72b9cb56a62c7a1e3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704049833732
+status: 3
+tags: []
+user_id: Dell
