@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/credit_card_default_prediction/mlruns/0/c7f37a0c29cd41599b94a7e46f16af9d/artifacts
+end_time: 1704208282048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c7f37a0c29cd41599b94a7e46f16af9d
+run_name: bustling-bee-725
+run_uuid: c7f37a0c29cd41599b94a7e46f16af9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704208281699
+status: 3
+tags: []
+user_id: Dell

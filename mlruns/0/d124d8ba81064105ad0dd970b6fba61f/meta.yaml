@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/credit_card_default_prediction/mlruns/0/d124d8ba81064105ad0dd970b6fba61f/artifacts
+end_time: 1704207951279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d124d8ba81064105ad0dd970b6fba61f
+run_name: smiling-yak-502
+run_uuid: d124d8ba81064105ad0dd970b6fba61f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704207950933
+status: 3
+tags: []
+user_id: Dell

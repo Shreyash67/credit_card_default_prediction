@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/credit_card_default_prediction/mlruns/0/2f89e206be6240ed9d09d93790fedaf0/artifacts
+end_time: 1704208421491
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f89e206be6240ed9d09d93790fedaf0
+run_name: fun-ram-700
+run_uuid: 2f89e206be6240ed9d09d93790fedaf0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704208421122
+status: 3
+tags: []
+user_id: Dell

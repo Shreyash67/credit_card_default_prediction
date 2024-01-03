@@ -1,0 +1,16 @@
+stages:
+  training:
+    cmd: python src/CreditCardDefaultPrediction/pipelines/training_pipeline.py
+    deps:
+      - src/CreditCardDefaultPrediction/pipelines/training_pipeline.py
+      - src/CreditCardDefaultPrediction/components/data_ingestion.py
+      - src/CreditCardDefaultPrediction/components/data_transformation.py
+      - src/CreditCardDefaultPrediction/components/model_trainer.py
+      - src/CreditCardDefaultPrediction/components/model_evaluation.py
+
+    outs:
+      - artifacts/raw.csv
+      - artifacts/test.csv
+      - artifacts/train.csv
+      - artifacts/preprocessor.pkl
+      - artifacts/model.pkl
